@@ -9,5 +9,5 @@ wss.on('connection', function connection(ws) {
     const trigger = JSON.stringify({ type: "launchSketch3" });
     ws.send(trigger);
     console.log("Trigger enviado");
-  }, 10000);
+  }, 2000);
 });
